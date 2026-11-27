@@ -43,4 +43,42 @@ main {
   min-height: 117px;
 }
 .header__mainmenu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 44px;
+}
+.header__title{
+  font-family: var(--main-font-family);
+  color: var(--orange);
+  font-size: 64px;
+}
+.mainmenu__link{
+  font-family: var(--main-font-family);
+  color: var(--black);
+  font-size: 30px;
+  text-decoration: none;
+}
+.mainmenu__link:hover{
+  color:var(--orange);
+}
+.mainmenu__link:focus{
+  color:var(--orange);
+}
+.mainmenu__link:active{
+  color:var(--orange);
+}
+.catalog__container{
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+}
+.catalog__card{
+  background-color: var(--white);
+  width: 290px;
+  padding: 24px 20px 24px 20px;
+}
+.card__img{
+  width: 100%;
 }
